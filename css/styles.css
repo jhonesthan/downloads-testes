@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,600&family=Roboto+Mono:ital,wght@1,200&family=Roboto:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.downloads {
+    background: linear-gradient(rgba(0, 0, 0, 0.735), rgb(123, 121, 127));
+    max-width: 100vh;
+    /* width: 100vh; */
+    height: 100vh;
+
+    text-align: center;
+}
+.downloads a {
+    text-decoration: none;
+    color: #fff;
+}
+.downloads h3 {
+    color: rgb(9, 213, 253);
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'poppins';
+}
+.downloads h4 {
+    padding: 15px auto;
+    color: blanchedalmond;
+    font-family: 'Roboto';
+}
+.downloads .videos a, .photos a, .pdf-ebooks a {
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 7px 15px;
+    background-color: green;
+    font-family: 'poppins';
+}
+.downloads .videos a:hover, .photos a:hover, .pdf-ebooks a:hover {
+    cursor: pointer;
+    background: linear-gradient(rgba(23, 23, 23, 0.735), rgb(85, 84, 87));
+    transition: .7s;
+    letter-spacing: 1px;
+}
+.videos p, .photos p, .pdf-ebooks p {
+    padding: 30px 0 7px 0;
+    color: rgb(9, 213, 253);
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'poppins';
+
+}
