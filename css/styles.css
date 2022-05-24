@@ -3,47 +3,39 @@
     margin: 0;
     padding: 0;
 }
-
-.downloads {
-    background: linear-gradient(rgba(0, 0, 0, 0.735), rgb(123, 121, 127));
-    max-width: 100vh;
-    /* width: 100vh; */
-    height: 100vh;
-
-    text-align: center;
+.box-downloads {
+    background-color: rgb(4, 4, 4);
+    height: 100vh;;
 }
-.downloads a {
-    text-decoration: none;
+.box-downloads h2 {
     color: #fff;
+    text-align: center;
+    font-family: poppins;
+    padding-top: 15px;
 }
-.downloads h3 {
-    color: rgb(9, 213, 253);
-    padding: 15px;
-    font-size: 25px;
+.box-downloads .downloads {
+    /* background: linear-gradient(rgb(55, 52, 52),  rgb(14, 14, 13)); */
+    text-align: center;
+    color: rgb(255, 0, 128);
+    font-size: 22px;
     font-family: 'poppins';
 }
-.downloads h4 {
-    padding: 15px auto;
-    color: blanchedalmond;
-    font-family: 'Roboto';
+.box-downloads .downloads p {
+    padding: 25px 0 12px 0;
+    margin: 15px 0 0 0;
 }
-.downloads .videos a, .photos a, .pdf-ebooks a, .foto-joao a {
-    border: 1px solid #fff;
+.box-downloads .downloads a {
+    text-decoration: none;
+    padding: 10px 20px;
     border-radius: 15px;
-    padding: 7px 15px;
-    background-color: green;
-    font-family: 'poppins';
+    border: 1px solid #000;
+    color: #fff;
+    background-color: rgb(18, 183, 37);
 }
-.downloads .videos a:hover, .photos a:hover, .pdf-ebooks a:hover, .foto-joao:hover {
-    cursor: pointer;
-    background: linear-gradient(rgba(23, 23, 23, 0.735), rgb(85, 84, 87));
-    transition: .7s;
-    letter-spacing: 1px;
-}
-.videos p, .photos p, .pdf-ebooks p, .foto-joao p {
-    padding: 30px 0 7px 0;
-    color: rgb(9, 213, 253);
-    font-size: 15px;
-    font-weight: 500;
-    font-family: 'poppins';
+.box-downloads .downloads a:hover {
+    background-color: #000;
+    border: 1px solid rgb(18, 183, 37);
+    color: rgb(18, 183, 37);
+    letter-spacing: 2px;
+    transition: 0.5s;
 }
