@@ -27,24 +27,23 @@
     color: blanchedalmond;
     font-family: 'Roboto';
 }
-.downloads .videos a, .photos a, .pdf-ebooks a {
+.downloads .videos a, .photos a, .pdf-ebooks a, .foto-joao a {
     border: 1px solid #fff;
     border-radius: 15px;
     padding: 7px 15px;
     background-color: green;
     font-family: 'poppins';
 }
-.downloads .videos a:hover, .photos a:hover, .pdf-ebooks a:hover {
+.downloads .videos a:hover, .photos a:hover, .pdf-ebooks a:hover, .foto-joao:hover {
     cursor: pointer;
     background: linear-gradient(rgba(23, 23, 23, 0.735), rgb(85, 84, 87));
     transition: .7s;
     letter-spacing: 1px;
 }
-.videos p, .photos p, .pdf-ebooks p {
+.videos p, .photos p, .pdf-ebooks p, .foto-joao p {
     padding: 30px 0 7px 0;
     color: rgb(9, 213, 253);
     font-size: 15px;
     font-weight: 500;
     font-family: 'poppins';
-
 }
